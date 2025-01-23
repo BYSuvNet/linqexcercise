@@ -1,5 +1,7 @@
-﻿// Här skapar vi en lista med användare som innehåller 1000 slumpmässiga 
-// användare var. Vi kommer använda denna lista för att utföra LINQ-övningar på dem.
+﻿//LINQ-ÖVNINGAR
+
+// Vi börjar med att skapa en lista med användare som innehåller 1000 slumpmässiga 
+// Vi kommer använda denna lista för att utföra LINQ-övningar på dem.
 List<User> users1 = User.GetRandomListOfUsers(1000);
 
 // FILTERING
@@ -127,3 +129,8 @@ List<User> users1 = User.GetRandomListOfUsers(1000);
 // - Hur många ord är unika? (Hint: Distinct() )
 // - Hur många ord förekommer mer än 10 gånger? (Hint: GroupBy() )
 // - Vilka ord förekommer endast en gång?
+
+// En annan övning: Återskapa detta med hjälp av LINQ: 
+// https://lmnt.me/blog/the-most-mario-colors.html
+// Börja med att skapa den grundläggande strukturen med all data, 
+// Ta sedan ut de olika sorteringarna bloggen gör.
